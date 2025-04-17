@@ -1,0 +1,8 @@
+<div>
+  <span>BetFlow</span>
+  <a [routerLink]="['/']" routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }">Accueil</a>
+  <a [routerLink]="['/matches']" routerLinkActive="active">Match</a>
+  <button>Connexion</button>
+</div>
+<app-bet-modal></app-bet-modal>
+<router-outlet />
